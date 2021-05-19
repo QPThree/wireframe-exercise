@@ -43,7 +43,7 @@ main img{
   margin-left: 90px;
 }
 main ul{
-  height:425px;
+  height:405px;
 }
 
 main li{
@@ -54,7 +54,7 @@ main li{
 section{
   margin-left:90px;
   width: 960px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 section img{
   float:left;
@@ -77,12 +77,18 @@ article p{
 article div {
   background-color: rgb(136, 136, 136);
   float:left;
-  width:120px;
+  width: 120px;
   margin-top: 10px;
   height: 15px;
-  padding: 5px 0px 10px 5px;
+  padding: 5px 3px 5px 5px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+article div:hover{
+  background-color: rgb(32, 83, 250);
+  color: #fff;
+  transition: 350ms;
 }
 
 article a{
